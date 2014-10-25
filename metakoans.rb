@@ -51,8 +51,6 @@ module MetaKoans
 
     assert{ not o.a? }
     assert{ o.a = 42 }
-p "###"
-p o.a
     assert{ o.a == 42 }
     assert{ o.a? }
   end
